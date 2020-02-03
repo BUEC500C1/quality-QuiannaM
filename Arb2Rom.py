@@ -5,7 +5,7 @@
 
 def arb2rom(arb):
 # check if input is a number
-    if not(isinstance(arb, int)):
+    if not isinstance(arb, int):
         print("not a number")
         return ''
 # check if input is less than 4000
